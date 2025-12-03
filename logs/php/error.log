@@ -1,0 +1,28 @@
+[30-Oct-2025 00:37:58 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "true " in C:\Users\ANSH\Local Sites\assign2-100977635\app\public\wp-config.php:94
+Stack trace:
+#0 C:\Users\ANSH\Local Sites\assign2-100977635\app\public\wp-load.php(50): require_once()
+#1 C:\Users\ANSH\Local Sites\assign2-100977635\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\ANSH\\L...')
+#2 {main}
+  thrown in C:\Users\ANSH\Local Sites\assign2-100977635\app\public\wp-config.php on line 94
+[30-Oct-2025 00:38:15 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "true " in C:\Users\ANSH\Local Sites\assign2-100977635\app\public\wp-config.php:94
+Stack trace:
+#0 C:\Users\ANSH\Local Sites\assign2-100977635\app\public\wp-load.php(50): require_once()
+#1 C:\Users\ANSH\Local Sites\assign2-100977635\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\ANSH\\L...')
+#2 {main}
+  thrown in C:\Users\ANSH\Local Sites\assign2-100977635\app\public\wp-config.php on line 94
+[03-Dec-2025 03:23:49 UTC] PHP Fatal error:  Uncaught Error: Class "Blocksy_Css_Injector" not found in C:\Users\ANSH\Local Sites\assign2-100977635\app\public\wp-content\themes\blocksy\inc\dynamic-css.php:404
+Stack trace:
+#0 C:\Users\ANSH\Local Sites\assign2-100977635\app\public\wp-content\themes\blocksy\inc\dynamic-css.php(98): Blocksy\ThemeDynamicCss->load_backend_dynamic_css()
+#1 C:\Users\ANSH\Local Sites\assign2-100977635\app\public\wp-includes\class-wp-hook.php(324): Blocksy\ThemeDynamicCss->Blocksy\{closure}('')
+#2 C:\Users\ANSH\Local Sites\assign2-100977635\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 C:\Users\ANSH\Local Sites\assign2-100977635\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\Users\ANSH\Local Sites\assign2-100977635\app\public\wp-includes\script-loader.php(2131): do_action('wp_print_script...')
+#5 C:\Users\ANSH\Local Sites\assign2-100977635\app\public\wp-includes\class-wp-hook.php(324): print_head_scripts('')
+#6 C:\Users\ANSH\Local Sites\assign2-100977635\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 C:\Users\ANSH\Local Sites\assign2-100977635\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\Users\ANSH\Local Sites\assign2-100977635\app\public\wp-admin\admin-header.php(151): do_action('admin_print_scr...')
+#9 C:\Users\ANSH\Local Sites\assign2-100977635\app\public\wp-admin\themes.php(247): require_once('C:\\Users\\ANSH\\L...')
+#10 {main}
+  thrown in C:\Users\ANSH\Local Sites\assign2-100977635\app\public\wp-content\themes\blocksy\inc\dynamic-css.php on line 404
+[03-Dec-2025 03:23:49 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\ANSH\Local Sites\assign2-100977635\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[03-Dec-2025 03:23:49 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\ANSH\Local Sites\assign2-100977635\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 368
